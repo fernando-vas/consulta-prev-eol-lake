@@ -1,9 +1,71 @@
-# Ignorar arquivos temporarios
-*.xlsx
-*.csv
-
-# Ignorar dependencias
+######################################
+# Outros
+######################################
+# Arquivos de pacotes / dependências (opcional)
 auxiliar/
-
+*.xlsx
 
 # Ignorar arquivos do VSCode
+######################################
+# Arquivos e pastas comuns
+######################################
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs / Configurações locais
+.vscode/
+.idea/
+*.code-workspace
+
+######################################
+# Python
+######################################
+# Ambiente virtual
+venv/
+.env/
+.venv/
+
+# Cache e compilados
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter Notebooks temporários
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Dados grandes (opcional)
+data/
+*.csv
+*.parquet
+
+######################################
+# R
+######################################
+# Arquivos temporários do R
+*.Rhistory
+*.RData
+*.Ruserdata
+
+# Cache de projetos RStudio
+.Rproj.user/
+
+# Arquivo de projeto R (opcional ignorar)
+*.Rproj
+
+######################################
+# Excel / VBA
+######################################
+# Arquivos temporários do Excel
+~$*.xls*
+*.bak
+*.tmp
+
+# Pastas de backup
+backup/
+Backup/
