@@ -1,0 +1,9 @@
+# Ignorar arquivos temporarios
+*.xlsx
+*.csv
+
+# Ignorar dependencias
+auxiliar/
+
+
+# Ignorar arquivos do VSCode
